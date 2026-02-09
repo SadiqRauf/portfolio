@@ -1,69 +1,54 @@
-# React + TypeScript + Vite
+<h1 align="center"> React Portfolio</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is home to a simple, fully functional React portfolio website designed specifically for aspiring frontend developers. It's an ideal starting point for anyone who wants to:
 
-Currently, two official plugins are available:
+- Learn React by building a practical project.
+- Gain inspiration for their own portfolio design.
+- Understand basic React components and state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+![3-devices-black](https://github.com/sohomofficial/react-portfolio/assets/93909798/1bb8d209-1a2e-4aa5-ab8e-ff6fb93a7a1e)
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Light/dark mode toggle
+- Smooth Scrolling
+- Scroll Animations
+- Responsiveness
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/sohomofficial/react-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Go to the project directory
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+  cd react-portfolio
 ```
+
+Install dependencies
+
+```bash
+  npm i
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+
+## FAQ
+
+### Can I use this project as a template to create my own portfolio?
+
+Yes! But don't forget to add your own magic to it ✨.
+
+
+# My-Portfolio
